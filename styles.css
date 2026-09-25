@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 280px 220px 220px;
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h2 {
+    line-height: 1;
+}
+
+.plan {
+    background: #fff0dc;
+}
+
+.plan span {
+    color: #e47b35;
+}
+
+button {
+    margin-top: 40px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ffbd62;
+}
+
+.main {
+    background: #e47b35;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main h2 {
+    color: #ffe28b;
+}
+
+.main p {
+    color: #ffe28b;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.places {
+    background: #dcebdd;
+}
+
+.box,
+.chat,
+.calendar,
+.mini {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.places p {
+    margin-top: 15px;
+}
+
+.itinerary {
+    background: #ffca70;
+    grid-row: 2 / 4;
+}
+
+.chat p {
+    background: #f8e7df;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.services {
+    background: white;
+}
+
+.services p {
+    background: #fff0dc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.services h2 {
+    margin-top: 30px;
+}
+
+.schedule {
+    background: #ffca70;
+}
+
+.calendar b {
+    background: #e47b35;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.calendar p {
+    color: #e47b35;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.stats {
+    background: white;
+}
+
+.stats h1 {
+    font-size: 55px;
+}
+
+.stats p {
+    margin-top: 10px;
+}
+
+.explore {
+    background: #e47b35;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.mini {
+    color: black;
+    width: 160px;
+}
